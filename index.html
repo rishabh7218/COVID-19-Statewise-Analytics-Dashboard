@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COVID-19 Statewise Analytics Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0b1220;color:#f8fafc;line-height:1.6}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;background:#111c30}
+.logo{font-size:21px;font-weight:bold;color:#38bdf8}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{text-align:center;padding:90px 20px}
+.hero h1{font-size:clamp(30px,5vw,52px);margin-bottom:18px}
+.hero h1 span{color:#38bdf8}
+.hero p{color:#cbd5e1;max-width:700px;margin:0 auto 28px}
+.btn{display:inline-block;padding:12px 22px;border-radius:7px;background:#0284c7;color:white;text-decoration:none;margin:6px}
+.btn.secondary{background:#26364e}
+section{padding:55px 8%}
+h2{text-align:center;font-size:30px;margin-bottom:28px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px}
+.card{background:#17243a;padding:25px;border-radius:12px;border:1px solid #293b55}
+.card h3{color:#38bdf8;margin-bottom:10px}
+.card p{color:#cbd5e1}
+.preview{width:100%;border-radius:12px;border:1px solid #34445b}
+.center{text-align:center}
+footer{text-align:center;padding:25px;background:#111c30;color:#94a3b8}
+a{color:#38bdf8}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">COVID ANALYTICS</div>
+<nav>
+<a href="#about">About</a>
+<a href="#features">Features</a>
+<a href="#dashboard">Dashboard</a>
+<a href="#contact">Project</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>COVID-19 <span>Statewise Analytics</span></h1>
+<p>Data-driven analysis of COVID-19 cases across Indian states using Microsoft Excel and Power BI. Explore statewise confirmed cases, recoveries and fatalities.</p>
+<a class="btn" href="#dashboard">Explore Dashboard</a>
+<a class="btn secondary" href="https://github.com/rishabh7218/COVID-19-Statewise-Analytics-Dashboard">View GitHub</a>
+</div>
+
+<section id="about">
+<h2>Project Overview</h2>
+<div class="card">
+<p>This project analyzes COVID-19 statewise data in India. It uses Excel for data analysis and Power BI for interactive data visualization, helping users understand the distribution of confirmed cases, recoveries and deaths across states.</p>
+</div>
+</section>
+
+<section id="features">
+<h2>Dashboard Features</h2>
+<div class="cards">
+<div class="card"><h3>KPI Cards</h3><p>Quick overview of key COVID-19 indicators.</p></div>
+<div class="card"><h3>State Filter</h3><p>Explore data using a statewise slicer.</p></div>
+<div class="card"><h3>Top 10 Confirmed</h3><p>Compare states by confirmed cases.</p></div>
+<div class="card"><h3>Top 10 Recoveries</h3><p>Analyze recoveries across states.</p></div>
+<div class="card"><h3>Top 10 Fatalities</h3><p>Compare reported fatalities.</p></div>
+<div class="card"><h3>Data Analysis</h3><p>Excel analysis and Power BI visualization.</p></div>
+</div>
+</section>
+
+<section id="dashboard">
+<h2>Dashboard Preview</h2>
+<div class="center">
+<img class="preview"
+src="https://raw.githubusercontent.com/rishabh7218/COVID-19-Statewise-Analytics-Dashboard/main/Screenshot%202026-06-23%20125145.png"
+alt="COVID-19 Power BI Dashboard Preview">
+<p style="margin-top:18px;color:#cbd5e1">Preview of the Power BI dashboard.</p>
+<a class="btn" href="https://github.com/rishabh7218/COVID-19-Statewise-Analytics-Dashboard/blob/main/covide%2019.pbix">Download Power BI File</a>
+</div>
+</section>
+
+<section>
+<h2>Tools & Technologies</h2>
+<div class="cards">
+<div class="card"><h3>Microsoft Excel</h3><p>Data analysis and pivot tables.</p></div>
+<div class="card"><h3>Power BI</h3><p>Interactive dashboard development.</p></div>
+<div class="card"><h3>CSV Dataset</h3><p>Indian statewise COVID-19 data.</p></div>
+</div>
+</section>
+
+<section id="contact" class="center">
+<h2>Explore the Project</h2>
+<p>View the source files and project documentation on GitHub.</p>
+<a class="btn" href="https://github.com/rishabh7218/COVID-19-Statewise-Analytics-Dashboard">Visit GitHub Repository</a>
+</section>
+
+<footer>
+<p>COVID-19 Statewise Analytics Dashboard | Created by Rishabh Patel</p>
+<p>Data source: Kaggle COVID-19 Statewise Dataset</p>
+</footer>
+
+</body>
+</html>
